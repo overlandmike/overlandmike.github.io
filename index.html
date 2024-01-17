@@ -1,12 +1,132 @@
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>website</title>
-    <h1>Hello World</h1>
-    <p>Hi</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+<!-- Navigation Menu -->
+<nav class="flex items-center justify-between flex-wrap bg-gray-600 p-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
+        <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+        <span class="font-semibold text-xl tracking-tight">Save the world</span>
+    </div>
+    <div class="block lg:hidden">
+        <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white text-gray-800">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+        </button>
+    </div>
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+        <div class="text-sm lg:flex-grow">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Home
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Projects
+            </a>
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+                Contact
+            </a>
+        </div>
+    </div>
+</nav>
 
-  </head>
-  <body>
+<!-- Hero Section -->
+<header class="w-full h-[50vh] bg-cover bg-center bg-no-repeat" style="background-image: url('images/bush.webp');">
+    <div class="flex items-center justify-center h-full">
+    </div>
+</header>
 
-  </body>
+<main>
+    <!-- ... previous content ... -->
+
+    <!-- Section with Columns in a Row -->
+    <section class="container mx-auto p-8 text-center">
+        <div class="flex flex-wrap justify-around">
+
+            <div class="flex flex-col items-center p-4 m-2">
+                <div class="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-2 overflow-hidden">
+                    <img src="images/river.webp" alt="Water" class="object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-lg mb-1">Water</h2>
+                <p>Information about water...</p>
+                <button>Read More</button>
+            </div>
+
+            <div class="flex flex-col items-center p-4 m-2">
+                <div class="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-2 overflow-hidden">
+                    <img src="images/food.png" alt="Water" class="object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-lg mb-1">Food</h2>
+                <p>Information about water...</p>
+                <button>Read More</button>
+
+            </div>
+
+            <div class="flex flex-col items-center p-4 m-2">
+                <div class="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-2 overflow-hidden">
+                    <img src="images/shelter.png" alt="Water" class="object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-lg mb-1">Shelter</h2>
+                <p>Information about water...</p>
+                <button>Read More</button>
+            </div>
+
+            <div class="flex flex-col items-center p-4 m-2">
+                <div class="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-2 overflow-hidden">
+                    <img src="images/energy.png" alt="Water" class="object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-lg mb-1">Energy</h2>
+                <p>Information about water...</p>
+                <button>Read More</button>
+            </div>
+
+            <div class="flex flex-col items-center p-4 m-2">
+                <div class="bg-white rounded-full w-32 h-32 flex items-center justify-center mb-2 overflow-hidden">
+                    <img src="images/river.webp" alt="Water" class="object-cover w-full h-full">
+                </div>
+                <h2 class="font-bold text-lg mb-1">Connection and Co-operation</h2>
+                <p>Information about water...</p>
+                <button>Read More</button>
+            </div>
+
+
+
+            <!-- Additional columns for Shelter, Energy, Connection and Cooperation -->
+        </div>
+    </section>
+
+    <section class="container mx-auto p-8">
+        <div class="grid md:grid-cols-3 gap-4">
+            <!-- Image -->
+            <div>
+                <img src="images/housing.png" alt="Sample Image" class="w-full">
+            </div>
+
+            <!-- Text Section -->
+            <div class="md:col-span-2">
+                <h2 class="text-2xl font-bold mb-2">Important Project</h2>
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nibh rutrum, ultricies purus in, ultrices tellus. Suspendisse commodo nec neque vel consequat. Cras lacinia turpis tortor, ut pretium tellus feugiat vel. Sed ornare lorem feugiat nisi malesuada, ac congue arcu mollis. Aliquam quis risus accumsan, aliquam nibh id, placerat lacus. Quisque vulputate sed mauris ac luctus. Nam venenatis ut metus quis hendrerit. Sed sit amet semper nisl. Quisque lacinia vestibulum viverra. Phasellus rhoncus quam sit amet libero convallis dictum. Integer vitae ex justo. Curabitur placerat faucibus lorem eu ornare.
+
+                    Cras vitae lorem facilisis, hendrerit mi in, ornare metus. Aliquam malesuada quam et elit fringilla pulvinar. Maecenas bibendum odio ut quam malesuada, sit amet posuere ligula pharetra. Integer at purus non sem porttitor imperdiet ut id risus. Mauris a nisi eu ipsum tempor maximus. Aenean felis erat, posuere ac scelerisque egestas, accumsan in augue. Nunc interdum nibh risus, nec vulputate sem molestie sit amet. Curabitur massa odio, cursus at blandit a, molestie sed quam. Fusce id risus sed quam porta faucibus rhoncus eget dui. Sed interdum commodo scelerisque. Morbi tellus lectus, suscipit eget pellentesque vel, elementum et risus. Maecenas a erat tincidunt, maximus elit vitae, dapibus risus. Maecenas tellus ante, eleifend id accumsan ac, malesuada ut nibh. Mauris quis justo vitae felis volutpat tristique. Nullam vel turpis est. Vestibulum finibus dignissim sapien.</p>
+                <a href="#" class="text-blue-600 hover:text-blue-800">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ... following content ... -->
+
+</main>
+
+<footer class="bg-gray-800 text-white p-4 text-center">
+    <!-- Footer content goes here -->
+    <p>© 2024 Your Company Name</p>
+</footer>
+
+<script>
+    // Add your JavaScript here
+</script>
+</body>
 </html>

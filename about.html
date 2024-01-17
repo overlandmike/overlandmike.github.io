@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-100">
+<!-- Navigation Menu -->
+<nav class="bg-gray-800 text-white p-4">
+    <div class="container mx-auto flex justify-between">
+        <a href="#" class="font-bold">Website Name</a>
+        <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Home</a></li>
+            <li><a href="#" class="hover:text-gray-300">Blog</a></li>
+            <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Profile Section -->
+<section class="container mx-auto p-8 flex items-center">
+    <img src="https://via.placeholder.com/150" alt="Author" class="block rounded-lg mr-8" style="width: 150px; height: 150px;">
+    <p class="text-lg">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget nibh rutrum, ultricies purus in, ultrices tellus. Suspendisse commodo nec neque vel consequat. Cras lacinia turpis tortor, ut pretium tellus feugiat vel. Sed ornare lorem feugiat nisi malesuada, ac congue arcu mollis. Aliquam quis risus accumsan, aliquam nibh id, placerat lacus. Quisque vulputate sed mauris ac luctus. Nam venenatis ut metus quis hendrerit. Sed sit amet semper nisl. Quisque lacinia vestibulum viverra. Phasellus rhoncus quam sit amet libero convallis dictum. Integer vitae ex justo. Curabitur placerat faucibus lorem eu ornare.
+    </p>
+</section>
+
+<!-- Hero Image Section -->
+<section class="w-full flex justify-center py-8">
+    <img src="https://via.placeholder.com/600x400" alt="Hero Image" class="w-2/3">
+</section>
+
+<!-- Contact Form Section -->
+<section class="container mx-auto p-8">
+    <h2 class="text-2xl font-bold text-center mb-6">Contact Me</h2>
+    <div class="max-w-md mx-auto bg-white rounded shadow-lg p-6">
+        <form action="your-server-side-code" method="POST">
+            <div class="mb-4">
+                <label for="name" class="block text-sm font-bold mb-2">Name</label>
+                <input type="text" id="name" name="name" class="w-full border-2 border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-bold mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full border-2 border-gray-300 p-2 rounded">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-sm font-bold mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" class="w-full border-2 border-gray-300 p-2 rounded"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white text-center p-4">
+    <p>© 2024 Your Website Name</p>
+</footer>
+</body>
+</html>
